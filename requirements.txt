@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+numpy
+requests
+matplotlib
+plotly
+dash==1.0.0
+gunicorn==19.9.0
+dash-bootstrap-components

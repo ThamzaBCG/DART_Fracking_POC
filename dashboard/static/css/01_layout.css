@@ -1,0 +1,84 @@
+
+@media (max-width: 1300px) {
+    #help-link {
+      visibility: hidden;
+    }
+  }
+
+.scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+.sidebar-col {
+    padding-top: 3em;
+}
+
+.navbar-brand {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+    border: None;
+}
+
+body, h5 {
+    font-family: "Roboto";
+}
+
+.nav-link {
+    padding: 0.3em 2em;
+}
+
+.img-hover-zoom > div {
+    overflow: hidden;
+}
+
+/* Transition property for smooth transformation of images */
+.img-hover-zoom  .dash-graph > * {
+    transition: transform 0.5s ease;
+}
+
+/* Transforming the image when container gets hovered */
+.img-hover-zoom:hover .dash-graph > * {
+    transform: scale(1.005);
+    transition: transform 0.5s ease;
+}
+
+/* Remove Chrome auto-completion style */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+}
+
+/* Datatable */
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner th,
+td {
+    font-family: "Roboto";
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td {
+    font-size: 15px;
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner input:not([type=radio]):not([type=checkbox]) {
+    color: var(--bs-primary) !important;
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner input:not([type=radio]):not([type=checkbox])::placeholder {
+    color: var(--bs-primary) !important;
+}
+
+.card .dash-table-container .previous-next-container .page-number .current-page-container input.current-page {
+    font-size: 16px !important;
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td div.dash-cell-value.cell-markdown {
+    text-align: center !important;
+}
+
+.cell-markdown p {
+    margin: 0
+}

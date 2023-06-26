@@ -1,0 +1,117 @@
+:root {
+    --link-and-input-color: #AAAAAA;
+    --input-background: #222222;
+    --dark-background: #111111;
+    --card-background: #303030
+}
+
+.nav-link {
+    color: var(--link-and-input-color);
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #f2f2f2
+}
+
+.sidebar-col {
+    border-right: solid 1px var(--card-background);
+    background-color: var(--dark-background);
+}
+
+.rc-slider-mark-text-active {
+    color: var(--link-and-input-color)
+}
+
+.form-select, .form-control, .form-control:focus {
+    background-color: var(--input-background) !important;
+    color: var(--link-and-input-color) !important
+}
+
+textarea {
+    background-color: var(--input-background) !important;
+    color: var(--link-and-input-color) !important
+}
+
+.Select-control {
+    background-color: var(--input-background) !important;
+    border-color: var(--input-background) !important;
+}
+
+.is-open>.Select-control {
+    background-color: var(--input-background) !important;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label,
+.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+    color: var(--link-and-input-color) !important;
+}
+
+.Select-menu-outer {
+    background-color: var(--input-background) !important;
+    border-color: var(--card-background) !important;
+    color: var(--link-and-input-color) !important;
+}
+
+/* Datatable */
+.card .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner th,
+td {
+    color: var(--link-and-input-color);
+    border-color: var(--card-background) !important;
+}
+
+.card .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner th {
+    background-color: var(--dark-background);
+}
+
+.card .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td {
+    background-color: var(--input-background);
+}
+
+.card .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td.cell--selected {
+    background-color: #ff413633;
+}
+
+.card .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td.cell--selected.focused {
+    border: solid !important;
+    border-width: unset !important  ;
+    border-color: hotpink !important;
+}
+
+.card .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner :not(.cell--selected) tr:hover {
+    background-color: var(--input-background);
+}
+
+button.next-page,
+button.last-page,
+button.previous-page,
+button.first-page {
+    background-color: var(--input-background)
+}
+
+div.current-page-container {
+    background-color: var(--input-background)
+}
+
+.card .dash-table-container .previous-next-container .page-number .current-page-container input.current-page {
+    color: white;
+    background-color: var(--input-background);
+}
+
+.card .dash-table-container .previous-next-container .page-number .current-page-container input.current-page::placeholder {
+    color: var(--link-and-input-color);
+}
+
+.dash-table-container .previous-next-container button.next-page,
+button.last-page,
+button.previous-page,
+button.first-page svg {
+    color: white
+}
+
+.dash-table-container .previous-next-container button.next-page:disabled,
+button.last-page:disabled,
+button.previous-page:disabled,
+button.first-page:disabled svg {
+    color: var(--link-and-input-color)
+}
